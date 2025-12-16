@@ -1,0 +1,12 @@
+# Ignore Data Files
+*.xlsx
+*.csv
+
+# Ignore Mac System Files
+.DS_Store
+
+# Ignore Python Cache
+__pycache__/
+
+# Ignore deprecated scripts
+import_data.py
