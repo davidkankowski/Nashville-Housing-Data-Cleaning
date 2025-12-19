@@ -67,7 +67,7 @@ WHERE row_num > 1;
 ```
 
 #### 6. Drop Unused Columns
-Removed the raw, unformatted columns (`OwnerAddress`, `TaxDistrict`, `PropertyAddress`, `SaleDate`) to finalize teh clean schema.
+Removed the raw, unformatted columns (`OwnerAddress`, `TaxDistrict`, `PropertyAddress`, `SaleDate`) to finalize the clean schema.
 
 ## 📁 Files in this Repository
 * `etl_pipeline.py`: The Python script used to connect to the Docker container and upload the raw Excel data.
